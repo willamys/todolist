@@ -23,5 +23,7 @@ body {
 }
 .flex-item-add{
   border-radius: 0px 10px 10px 0px;
+  background-color: black;
+  color: aliceblue;
   margin-left: -5px;
 }
