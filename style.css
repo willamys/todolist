@@ -22,5 +22,6 @@ body {
   margin: 0;
 }
 .flex-item-add{
+  border-radius: 0px 10px 10px 0px;
   margin-left: -5px;
 }
