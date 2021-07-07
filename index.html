@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  </style>
+  <link rel="stylesheet" href="style.css" />
+  <title>To Do List</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="flex-item">
+      <h1>To Do List</h1>
+      <form id="form" action="" data-new-list-form>
+        <input type="text" name="input" id="input" data-new-list-input>
+        <button class="flex-item-add">+</button>
+      </form>
+      <div id="toDoContainer" class="to-dos" data-lists></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
